@@ -1,12 +1,45 @@
-# React + Vite
+## About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Student teacher assessment portal
 
-Currently, two official plugins are available:
+## TechStack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Mockup:** [Figma](https://www.figma.com/design/pNGRifrziQXP28LyQ16OTZ/Manasa-Natukula-s-team-library?node-id=3311-2&m=dev&t=B64bi0o3dIlDNhE8-1)
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Firebase Firestore
+- **Hosting:** TBD
+- **Charting:** ApexCharts for data visualization
+- **State Management:** React Hooks for reactive UI
 
-## Expanding the ESLint configuration
+## Contribution & Feedback
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Open to feedback and feature requests! If you want me to add specific features or improvements, please let me know.
+
+### Setup Firebase
+
+1. Go to [Firebase Console](https://console.firebase.google.com/)
+2. Create a new project
+3. Enable **Firestore Database**
+4. Get your Firebase config (`apiKey`, `projectId`, etc.)
+5. Add your Firebase credentials in a file:
+
+```env
+FIREBASE_API_KEY=your_key
+FIREBASE_PROJECT_ID=your_project
+FIREBASE_CLIENT_EMAIL=your_client_email
+FIREBASE_PRIVATE_KEY=your_private_key (make sure to replace \n with actual newlines)
+```
+
+## 🧑‍💻 Frontend Setup (React)
+
+### 🔧 Prerequisites
+
+- Node.js (>= 18)
+- NPM
+
+### ▶️ Run Frontend
+
+```bash
+npm install
+npm run dev
+```
